@@ -19,8 +19,63 @@
   }
 }
 
+@font-face {
+  font-family: "Helvetica Neue";
+  src:
+    local("Helvetica Neue"),
+    local("HelveticaNeue"),
+    url("/fonts/helveticaneue/HelveticaNeue-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src:
+    local("Helvetica Neue Italic"),
+    local("HelveticaNeue-Italic"),
+    url("/fonts/helveticaneue/HelveticaNeue-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src:
+    local("Helvetica Neue Bold"),
+    local("HelveticaNeue-Bold"),
+    url("/fonts/helveticaneue/HelveticaNeue-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Averia";
+  src:
+    local("Averia Regular"),
+    local("Averia-Regular"),
+    url("/fonts/averia/Averia_Regular.woff2") format("woff2"),
+    url("/fonts/averia/Averia_Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", "Averia", Helvetica, Arial, sans-serif;
+}
+
+@layer utilities {
+  .font-helvetica {
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+
+  .font-averia {
+    font-family: 'Averia', serif;
+  }
 }
