@@ -82,7 +82,7 @@ export default function Home() {
               <h2 className="font-averia text-3xl text-gray-950 mb-6">The Self</h2>
 
               <p className="mx-auto max-w-[50ch] text-sm text-gray-950 leading-relaxed">
-                Cho's art begins with the self: not as a fixed identity, but as a shifting lens through which he reframes the world. His images echo his own search for belonging, transforming memory, culture, and body into visual myths. By grounding his work in self-reflection, he creates photographs that are deeply personal yet universally resonant. </p>
+                Cho&apos;s art begins with the self: not as a fixed identity, but as a shifting lens through which he reframes the world. His images echo his own search for belonging, transforming memory, culture, and body into visual myths. By grounding his work in self-reflection, he creates photographs that are deeply personal yet universally resonant. </p>
               <div className="mt-10">
                 <Link href="/photography" className="inline-block px-8 py-3 text-sm border border-neutral-900 hover:bg-neutral-900 hover:text-white transition-colors" >
                   Explore Works
